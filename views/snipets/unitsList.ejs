@@ -1,0 +1,46 @@
+<div class="card m-3">
+  <div class="card-body">
+    <p>
+      <a
+        class=""
+        data-bs-toggle="collapse"
+        href="#collapseUnitsListForm"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseUnitsListForm"
+      >
+        Units List
+      </a>
+    </p>
+    <div class="collapse" id="collapseUnitsListForm">
+      <div class="card-body">
+        <!-- Makes POST request to /login route -->
+        <form action="" method="">
+          <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Units</label>
+            <div class="col-sm-10">
+              <input id="ulist" type="text" class="form-control ulist-input" />
+            </div>
+          </div>
+
+          <button
+            class="btn btn-dark btn-ulist"
+            data-bs-toggle="collapse"
+            href="#collapseUListResult"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseUListResult"
+          >
+            Try it out
+          </button>
+        </form>
+      </div>
+      <!--  -->
+      <div class="collapse" id="collapseUListResult">
+        <div class="card card-body">
+          <p class="res-ulist">No data.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

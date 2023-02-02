@@ -1,0 +1,61 @@
+<div class="card m-3">
+  <div class="card-body">
+    <p>
+      <a
+        class=""
+        data-bs-toggle="collapse"
+        href="#collapseAuthForm"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseAuthForm"
+      >
+        Authentication
+      </a>
+    </p>
+    <div class="collapse" id="collapseAuthForm">
+      <div class="card-body">
+        <!-- Makes POST request to /login route -->
+        <form action="" method="">
+          <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">User</label>
+            <div class="col-sm-10">
+              <input
+                id="user"
+                type="text"
+                class="form-control user-input"
+                name="username"
+              />
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input
+                id="pass"
+                type="password"
+                class="form-control password-input"
+                name="password"
+              />
+            </div>
+          </div>
+          <button
+            class="btn btn-dark btn-auth"
+            data-bs-toggle="collapse"
+            href="#collapseAuthResult"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseAuthResult"
+          >
+            Try it out
+          </button>
+        </form>
+      </div>
+      <!--  -->
+      <div class="collapse" id="collapseAuthResult">
+        <div class="card card-body">
+          <p class="res-auth">No data.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
